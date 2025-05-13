@@ -21,7 +21,7 @@ sudo docker ps
 3. Run Hoku-1 container from its image
 
 ```bash
-sudo docker run -p 4800:4800 hoku-1-image
+sudo docker run --name hoku-1-container -p 4800:4800 hoku-1-image
 ```
 
 4. To stop open new terminal and check list of running containers
